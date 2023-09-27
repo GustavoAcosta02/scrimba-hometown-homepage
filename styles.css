@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+}
+
+img {
+    width: 100px;
+}
+h5 {
+    font-weight: lighter;
+}
+
+.hero-section{
+    min-height: 310px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: 25% 75%;
+    
+}
+#hero--title{
+    background: #cb997e;
+    width: 200px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+#hero--text{
+    background: #ffe8d6;
+    width: 410px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0px 25px;
+}
+
+.activities{
+    background-color: #b7b7a4;
+    height: 300px;
+}
+#activities--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#activities--title{
+    font-size: 30px;
+}
+#activities--img{
+    border-radius: 100px;
+}
+#activities--spacing{
+    width: 200px;
+}
+
+.guide{
+    background-color: white;
+}
+#guide--section{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ddbea9;
+    width: 400px;
+    height: 295px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-bottom: 10px solid #cb997e;
+}
+#guide--img{
+    width: 180px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#guide--saying{
+    font-style: italic;
+}
